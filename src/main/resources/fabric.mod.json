@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "easypacket",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "EasyPacket",
+  "description": "A Meteor Client addon for packet analysis and server reconnaissance.",
   "authors": [
-    "seasnail"
+    "bzzimmy"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/bzzimmy/easypacket"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/easypacket/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.bzzimmy.easypacket.EasyPacket"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "easypacket.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

@@ -1,6 +1,6 @@
-# Meteor Addon Template
+# EasyPacket
 
-A template to allow easy usage of the Meteor Addon API.
+A Meteor Client addon for packet analysis and server reconnaissance.
 
 ### How to use
 
@@ -99,16 +99,15 @@ Here is a brief explanation of the ones you might need to modify:
 - `.github/workflows`: Contains the GitHub Actions configuration files.
 - `gradle`: Contains the Gradle wrapper files.  
   Edit the `gradle.properties` file to change the version of the Gradle wrapper.
-- `src/main/java/com/example/addon`: Contains the main class of the addon.  
+- `src/main/java/com/bzzimmy/easypacket`: Contains the main class of the addon.  
   Here you can register your custom commands, modules, and HUDs.  
   Edit the `getPackage` method to reflect the package of your addon.
 - `src/main/resources`: Contains the resources of the addon.
     - `assets`: Contains the assets of the addon.  
       You can add your own assets here, separated in subfolders.
-        - `template`: Contains the assets of the template.  
-          You can replace the `icon.png` file with your own addon icon.  
-          Also, rename this folder to reflect the name of your addon.
-    - `addon-template.mixins.json`: Contains the Mixin configuration for the addon.  
+        - `easypacket`: Contains the assets of the addon.  
+          You can replace the `icon.png` file with your own addon icon.
+    - `easypacket.mixins.json`: Contains the Mixin configuration for the addon.  
       You can add your own mixins in the `client` array.
     - `fabric.mod.json`: Contains the metadata of the addon.  
       Edit the various fields to reflect the metadata of your addon.
